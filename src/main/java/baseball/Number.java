@@ -44,7 +44,7 @@ public class Number {
     }
 
     //비정상적인 입력 처리
-    public static void Inputcheck(Integer number){
+    public static void inputCheck(Integer number){
         is_Include_Zero(splitNumber(number));
         is_Not_ThreeDigits(number);
         is_overlap(splitNumber(number));
