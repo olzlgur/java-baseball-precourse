@@ -16,7 +16,7 @@ public class GamePlayer {
         //랜덤 수 생성
         random.setNumber(random.createNumber());
 
-        //게임 내 n트
+        //게임 실행 반복문
         while(true) {
             //입력 받고 비정상적인 입력 처리하고 저장
             System.out.print("숫자를 입력해 주세요 : ");
